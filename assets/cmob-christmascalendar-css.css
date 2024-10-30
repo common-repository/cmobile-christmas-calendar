@@ -1,0 +1,213 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.center_div {
+  width: 92%;
+  margin: auto;
+}
+/* common */
+@keyframes perspectiveLeft {
+  0% {
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateY(0deg);*/
+  }
+
+  100% {
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateY(-110deg);
+  }
+}
+
+
+/* this class must be included to your styles*/
+.hidden {color:#ccc;}
+.error {color:red}
+
+#christmas-share-buttons img {
+padding: 5px;
+left:100px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+/*countdown part*/
+.countdownwrap{
+  border:0px solid green;
+}
+/*countdown */
+
+.door1,.door2,.door3,.door4,.door5,.door6,.door7,.door8,.door9,.door10,.door11,.door12,.door13,.door14,.door15,.door16,
+.door17,.door18,.door19,.door20,.door21,.door22,.door23,.door24,.door25
+{
+ 
+  width: 216px;
+  height: 212px;
+  
+  box-shadow: inset 0px 0px 4px 1px rgba(0,0,0,0.5);
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+  
+  background: url('../images/animated-santa-claus-image.gif') center center no-repeat;
+}
+#christmasdaydropdownlist {
+
+}
+/* This is the logo link clickable area */
+#box-link-door {
+position: absolute;
+
+height: 212px;
+width: 216px;
+background-color: transparent;
+border: 0px solid yellow;
+}
+.door1__front, .door1__back,.door2__front, .door2__back,.door3__front, .door3__back,.door4__front, .door4__back,
+.door5__front, .door5__back,.door6__front, .door6__back,.door7__front, .door7__back,.door8__front, .door8__back,
+.door9__front, .door9__back,.door10__front, .door10__back,.door11__front, .door11__back,.door12__front, .door12__back,
+.door13__front, .door13__back,.door14__front, .door14__back,.door15__front, .door15__back,.door16__front, .door16__back,
+.door17__front, .door17__back,.door18__front, .door18__back,.door19__front, .door19__back,.door20__front, .door20__back,
+.door21__front, .door21__back,.door22__front, .door22__back,.door23__front, .door23__back,.door24__front, .door24__back,
+.door25__front, .door25__back
+  {
+  position: absolute;
+  width: 216px;
+  height: 212px;
+  
+  transform-style: preserve-3d;
+  transform-origin: 0% 50%; 
+  
+  /*filter: drop-shadow(2px 2px 4px rgba(0,0,0,.5));*/
+  
+  /*box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);*/
+}
+.door1__front {  
+  background: url('../images/Lucka1.png');
+  backface-visibility: hidden;
+}
+.door2__front {  
+  background: url('../images/Lucka2.png');
+  backface-visibility: hidden;
+}
+.door3__front {  
+  background: url('../images/Lucka3.png');
+  backface-visibility: hidden;
+}
+.door4__front {  
+  background: url('../images/Lucka4.png');
+  backface-visibility: hidden;
+}
+.door5__front {  
+  background: url('../images/Lucka5.png');
+  backface-visibility: hidden;
+}
+.door6__front {  
+  background: url('../images/Lucka6.png');
+  backface-visibility: hidden;
+}
+.door7__front {  
+  background: url('../images/Lucka7.png');
+  backface-visibility: hidden;
+}
+.door8__front {  
+  background: url('../images/Lucka8.png');
+  backface-visibility: hidden;
+}
+.door9__front {  
+  background: url('../images/Lucka9.png');
+  backface-visibility: hidden;
+}
+.door10__front {  
+  background: url('../images/Lucka10.png');
+  backface-visibility: hidden;
+}
+.door11__front {  
+  background: url('../images/Lucka11.png');
+  backface-visibility: hidden;
+}
+.door12__front {  
+  background: url('../images/Lucka12.png');
+  backface-visibility: hidden;
+}
+.door13__front {  
+  background: url('../images/Lucka13.png');
+  backface-visibility: hidden;
+}
+.door14__front {  
+  background: url('../images/Lucka14.png');
+  backface-visibility: hidden;
+}
+.door15__front {  
+  background: url('../images/Lucka15.png');
+  backface-visibility: hidden;
+}
+.door16__front {  
+  background: url('../images/Lucka16.png');
+  backface-visibility: hidden;
+}
+.door17__front {  
+  background: url('../images/Lucka17.png');
+  backface-visibility: hidden;
+}
+.door18__front {  
+  background: url('../images/Lucka18.png');
+  backface-visibility: hidden;
+}
+.door19__front {  
+  background: url('../images/Lucka19.png');
+  backface-visibility: hidden;
+}
+.door20__front {  
+  background: url('../images/Lucka20.png');
+  backface-visibility: hidden;
+}
+.door21__front {  
+  background: url('../images/Lucka21.png');
+  backface-visibility: hidden;
+}
+.door22__front {  
+  background: url('../images/Lucka22.png');
+  backface-visibility: hidden;
+}
+.door23__front {  
+  background: url('../images/Lucka23.png');
+  backface-visibility: hidden;
+}
+.door24__front {  
+  background: url('../images/Lucka24.png');
+  backface-visibility: hidden;
+}
+.door25__front {  
+  background: url('../images/Lucka25.png');
+  backface-visibility: hidden;
+}
+.door1__back,.door2__back,.door3__back,.door4__back,.door5__back,.door6__back,.door7__back,.door8__back,
+.door9__back,.door10__back,.door11__back,.door12__back,.door13__back,.door14__back,.door15__back,.door16__back,
+.door17__back,.door18__back,.door19__back,.door20__back,.door21__back,.door22__back,.door23__back,.door24__back,
+.door25__back
+ {
+  background: url('../images/baksida_lucka.png');
+  backface-visibility: visible;
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,.5));
+}
+
+.door1:hover .door1__front, .door1:hover .door1__back,.door2:hover .door2__front, .door2:hover .door2__back,
+.door3:hover .door3__front, .door3:hover .door3__back,.door4:hover .door4__front, .door4:hover .door4__back,
+.door5:hover .door5__front, .door5:hover .door5__back,.door6:hover .door6__front, .door6:hover .door6__back,
+.door7:hover .door7__front, .door7:hover .door7__back,.door8:hover .door8__front, .door8:hover .door8__back,
+.door9:hover .door9__front, .door9:hover .door9__back,.door10:hover .door10__front, .door10:hover .door10__back,
+.door11:hover .door11__front, .door11:hover .door11__back,.door12:hover .door12__front, .door12:hover .door12__back,
+.door13:hover .door13__front, .door13:hover .door13__back,.door14:hover .door14__front, .door14:hover .door14__back,
+.door15:hover .door15__front, .door15:hover .door15__back,.door16:hover .door16__front, .door16:hover .door16__back,
+.door17:hover .door17__front, .door17:hover .door17__back,.door18:hover .door18__front, .door18:hover .door18__back,
+.door19:hover .door19__front, .door19:hover .door19__back,.door20:hover .door20__front, .door20:hover .door20__back,
+.door21:hover .door21__front, .door21:hover .door21__back,.door22:hover .door22__front, .door22:hover .door22__back,
+.door23:hover .door23__front, .door23:hover .door23__back,.door24:hover .door24__front, .door24:hover .door24__back,
+.door25:hover .door25__front, .door25:hover .door25__back
+ {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: perspectiveLeft;
+  
+}
